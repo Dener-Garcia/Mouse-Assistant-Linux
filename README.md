@@ -1,5 +1,9 @@
 # highlight-pointer
 
+## My setup 
+
+- ./highlight-pointer.bin --radius 9 --outline  3 --released-color green --pressed-color blue
+
 Highlight mouse pointer/cursor using a dot - useful for presentations,
 screen sharing, ...
 
