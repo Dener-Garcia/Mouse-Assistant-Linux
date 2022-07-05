@@ -37,6 +37,12 @@ libraries. On Debian/Ubuntu, just install these using
 
 ```
 sudo apt-get install libx11-dev libxext-dev libxfixes-dev libxi-dev
+
+Other commands
+sudo apt-get install libc6-dev
+sudo apt-get install build-essential
+sudo apt install libx11-dev
+sudo apt install libxi-dev
 ```
 
 ### Building
