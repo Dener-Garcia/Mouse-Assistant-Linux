@@ -540,13 +540,13 @@ static struct option long_options[] = {{"auto-hide-cursor", no_argument, &option
 static int set_options(int argc, char* argv[]) {
     options.auto_hide_cursor = 0;
     options.auto_hide_highlight = 0;
-    options.cursor_visible = 0;
+    options.cursor_visible = 1;
     options.highlight_visible = 1;
-    options.radius = 5;
-    options.outline = 0;
+    options.radius = 9;
+    options.outline = 3;
     options.hide_timeout = 3;
-    options.pressed_color_string = "#1f77b4";
-    options.released_color_string = "#d62728";
+    options.pressed_color_string = "#5294e2";
+    options.released_color_string = "#e7e400";
 
     while (1) {
         int c = getopt_long(argc, argv, "c:ho:p:r:t:", long_options, NULL);
